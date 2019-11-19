@@ -7,3 +7,10 @@ Given there was at least 7 machines to defend, it required a LOT of manual click
 Instead of that, I wrote this small script to automate the process.
 
 Probably not ready for production use!
+
+
+## Installing
+`pipenv install --pre`
+
+## running
+`pipenv run python create_snapshot.py  --resource-group-name "RESOURCE-GROUP-NAME" capture`
