@@ -12,5 +12,9 @@ Probably not ready for production use!
 ## Installing
 `pipenv install --pre`
 
+## prereq
+this tool depends on the Azure CLI, you will need to run `az login` before this script will be able to work. 
+(This script pulls credentials from the Azure CLI.)
+
 ## running
 `pipenv run python create_snapshot.py  --resource-group-name "RESOURCE-GROUP-NAME" capture`
